@@ -1,10 +1,11 @@
 {
 	"name": "Java",
+	"forwardPorts": [80],
 	"image": "mcr.microsoft.com/devcontainers/java:1-21",
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "21",
-			"installMaven": "false",
+			"installMaven": "true",
 			"mavenVersion": "3.8.6",
 			"installGradle": "false"
 		}
@@ -22,12 +23,15 @@
 			},
 			"extensions": [
 				"linkedinlearning.linkedinlearning-vscode-theme",
-				"vscjava.vscode-java-pack"
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-java-debug",
+				"redhat.java"
 			]
 		}
 	},
 	"remoteUser": "vscode",
-	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
-	// "postCreateCommand": "sudo sh .devcontainer/startup.sh"
+	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+	"postCreateCommand": "sudo sh .devcontainer/startup.sh"
 }
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
