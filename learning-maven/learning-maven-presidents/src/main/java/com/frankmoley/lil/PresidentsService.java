@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.List;
 
 /**
@@ -44,7 +45,7 @@ public class PresidentsService {
 
         ClassLoader classLoader = getClass().getClassLoader();
         try {
-            json = IOUtils.toString(classLoader.getResourceAsStream("presidents.json"));
+            json = IOUtils.toString(classLoader.getResourceAsStream("presidents.json"), Charset.defaultCharset());
             ObjectMapper mapper = new ObjectMapper();
             presidents = mapper.readValue(json, new TypeReference<List<President>>(){});
         } catch (IOException e) {
