@@ -89,6 +89,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.3</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.21.0</version>
+                <configuration>
+                    <outputDirectory>/var/www/html</outputDirectory> 
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -101,6 +109,8 @@
             </plugin>
         </plugins>
     </reporting>
-
+    <distributionManagement>
+        
+    </distributionManagement>
 
 </project>
