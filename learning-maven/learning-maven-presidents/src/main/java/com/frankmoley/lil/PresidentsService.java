@@ -21,6 +21,11 @@ public class PresidentsService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PresidentsService.class);
 
+    public static void main(String[] args){
+        PresidentsService service = new PresidentsService();
+        service.getPresidents().forEach(System.out::println);
+    }
+    
     /**
      * Default constructor for the service. This service will load the readonly data of the {@link President}s
      */
