@@ -5,6 +5,8 @@ This is the repository for the LinkedIn Learning course `Introduction to Maven`.
 
 ## Course Description
 
+In this course, software developer and architect Frank Moley shows you how to master the sophisticated features of Apache Maven, a key software development tool in the Java ecosystem. Find out how to use Maven to manage builds, simplify dependency handling, and maintain consistency across your projects. Learn to configure the Project Object Model (POM) file and implement best practices in project structuring and organization. Get insights into the Maven build lifecycle, and learn how to execute and leverage Maven's robust range of plugins. Discover how Maven can help ensure your builds are well-documented and organized. By the end of this course, you'll be able to manage complex Java projects effectively and leverage Maven's tools to improve the quality and reliability of your software.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -24,24 +26,18 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
 ## Instructor
 
-Instructor name
+Frank P Moley III
 
-Instructor description
+Principal Software Architect at Vertex, Inc.
 
                             
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/frank-p-moley-iii?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/introduction-to-maven
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQE7RIdYFq7eDA/learning-public-crop_675_1200/B4EZezSRrbHwAY-/0/1751059602762?e=2147483647&v=beta&t=SEJ0qaJwMwRV2sJje8xas99P20ybRBTRxNg3WRYOXBk
